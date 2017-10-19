@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica_1_Formulario</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+	div {
+		margin: 2em 15em 0 15em;
+		border: .5em solid grey;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	form {
+		border: .2em solid grey;
+		padding: 1em;
+		margin: 1em 3em 1em 3em;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<h2>Formulario de registro</h2>
+		<form action="" method="">
+			<label for="nombre_usuario">Nombre usuario</label>
+			<input type="text" id="nombre_usuario">
+			<br><br>
+			<label for="nombre">Nombre</label>
+			<input type="text" id="nombre">
+			<br><br>
+			<label for="apellidos">Apellidos</label>
+			<input type="text" id="apellidos">
+			<br><br>
+			<label for="password">Contraseña</label>
+			<input type="password" id="password">
+			<br><br>
+			Sexo &nbsp;
+			<label for="masculino">Masculino</label>
+			<input type="radio" name="sexo" id="masculino" value="m">
+
+			<label for="femenino">Femenino</label>
+			<input type="radio" name="sexo" id="femenino" value="f">
+
+			<label for="otros">Otros</label>
+			<input type="radio" name="sexo" id="otros" value="o">
+			<br><br>
+			<label for="fecha_nacimiento">Fecha nacimiento</label>
+			<input type="date" id="fecha_nacimiento">
+			<br><br>
+			<label for="color_favorito">Color favorito</label>
+			<select id="color_favorito">
+				<option>azul</option>
+				<option>verde</option>
+				<option>rojo</option>
+				<option>amarillo</option>
+				<option>blanco</option>
+			</select>
+			<br><br>
+			<input type="submit" name="" value="Enviar">
+		</form>
+	</div>	
+</body>
+</html>
